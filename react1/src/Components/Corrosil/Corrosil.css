@@ -1,0 +1,9 @@
+.trending{
+    color: chocolate;
+    text-align: center;
+}
+.images{
+    display: flex;
+  gap: 15px;
+
+}

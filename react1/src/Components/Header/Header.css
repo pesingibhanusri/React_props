@@ -1,0 +1,58 @@
+.logo{
+    height: 200px;
+    width: 200px;
+ 
+}
+.header{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.para{
+    color: chocolate;
+    margin: auto;
+}
+/* Default styling for larger screens */
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.para {
+    color: chocolate;
+    margin: auto;
+}
+
+/* Media Query for tablets and smaller devices */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px;
+    }
+    
+    .logo {
+        height: 40px; /* Make the logo smaller on smaller screens */
+    }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+    .header {
+        gap: 10px;
+    }
+
+    .logo {
+        height: 30px; /* Further reduce logo size */
+    }
+
+    .para {
+        font-size: 14px; /* Make the text a bit smaller for mobile */
+    }
+}

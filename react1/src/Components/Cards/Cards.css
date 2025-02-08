@@ -1,0 +1,22 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.cards1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.north{
+    text-align: center;
+    color: chocolate;
+}
+ div p{
+    color: darkmagenta;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+ }
+
+

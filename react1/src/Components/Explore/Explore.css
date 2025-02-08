@@ -1,0 +1,34 @@
+.explore{
+    color: chocolate;
+    text-align: center;
+
+}
+.div{
+    background-color: rgb(221, 218, 218);
+   
+    
+}
+.imagesdiv div{
+    background-color: azure;
+    width: 100px;
+    text-align: center;
+
+}
+
+.imagesdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.image1{
+    background-color: chocolate;
+}
+.imagesdiv div:hover{
+    background-color: chocolate;
+}
+
+
+

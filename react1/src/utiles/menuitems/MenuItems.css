@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: auto;
+    font-size: 25px;
+    color:darkmagenta; 
+    /* background-color: darkmagenta;  */
+    height: 30px;
+   
+    
+
+}
